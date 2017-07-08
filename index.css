@@ -4,7 +4,7 @@ h1 {
     font-style: italic;
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 5px 5px 3px grey;
+    text-shadow: 5px 5px 3px darkgrey;
     border: 5px dotted black;
     margin: 10px;
     padding: 10px;
@@ -25,4 +25,39 @@ li{
 }
 body{
     background-color: grey; 
+}
+
+.box{
+    border:5px solid black;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 0px;
+    background-color: cyan;
+    transition-property: border-radius, background-color, border;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+}
+.box:hover{
+    background-color: green;
+    border-radius:150px;
+    border:5px red dotted; 
+}
+
+.word{color: black;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 0px 0px 0px grey;
+    border: 5px dotted black;
+    margin: 10px;
+    padding: 10px;
+    transition-property: text-shadow;
+    transition-duration: 300ms;
+    transition-timing-function:linear
+}
+
+.word:hover{
+    text-shadow: 5px 5px 10px crimson ;
 }
