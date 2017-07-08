@@ -1,0 +1,28 @@
+h1 {
+    color: black;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 5px 3px grey;
+    border: 5px dotted black;
+    margin: 10px;
+    padding: 10px;
+}
+
+li{
+    color:crimson;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.standard_font{color:crimson;
+        font-family: 'Orbitron', sans-serif;
+}
+
+.fancy{font-family: 'Indie Flower', cursive;
+    color: darkgrey;
+
+}
+body{
+    background-color: grey; 
+}
